@@ -2789,7 +2789,8 @@
 		}
 
 	.feature {
-		background-color: rgba(144, 144, 144, 0.075);
+		/*background-color: rgba(144, 144, 144, 0.075);*/
+		background-color: rgba(255, 255, 255);
 	}
 
 /* Image Grid */
@@ -2842,7 +2843,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 8em 0 6em 0;
+		padding: 12em 0 6em 0;
 		position: relative;
 	}
 
@@ -2852,8 +2853,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #EEE;
-			color: #777;
+			background-color: #fff;
+			color: #000;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3087,7 +3088,7 @@
 					}
 
 		.wrapper.style2 {
-			background-color: #1E2832;
+			/*background-color: #1E2832;*/
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -3274,9 +3275,9 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #51BAA4;
+					background-color: #ffffff;
 					box-shadow: none;
-					color: #fff !important;
+					color: #000 !important;
 				}
 
 					.wrapper.style2 input[type="submit"].special:hover,
