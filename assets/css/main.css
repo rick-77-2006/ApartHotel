@@ -5,7 +5,7 @@
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark {
-		/*margin: 8px;*/
+		margin: 28px;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
@@ -1755,6 +1755,7 @@
 
 	input, select, textarea {
 		color: #25383B;
+
 	}
 
 	a {
@@ -1875,7 +1876,7 @@
 	}
 
 		form ul.actions {
-			margin-top: 4em;
+			margin-top: -3em;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3628,7 +3629,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 100%;
+		width: 90%;
 		z-index: 10001;
 	}
 
