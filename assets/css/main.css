@@ -4,8 +4,8 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark {
-		margin: 23px;
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, btn-mosc, logo {
+		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
@@ -2728,7 +2728,7 @@
 		}
 
 		.feature .image {
-			width: 48%;
+			width: 83%;
 		}
 
 			.feature .image img {
@@ -4222,6 +4222,7 @@
 		}
 		
 .btn-mosc {
+	margin: 0;
 	border-radius: 30px;
 	 background-color: #F7F9FC;
     color: black;
@@ -4233,11 +4234,13 @@
 }
 
 .btn-mosc:hover {
+	margin: 0;
     background-color: #FFC000;
     color: white;
 }
 
 .logo {
+	margin: 0;
 	font-family: "Century Gothic"; /*, sans-serif;*/
 	font-weight: 700;
 	font-size: 63px;
@@ -4247,5 +4250,56 @@
   }
 
   .logo--dark {
+	  margin: 0;
 	color: #FFC000;
   }
+  
+  .social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+.social-icons>li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.social-icons a {
+  position: relative;
+  background-color: #eee;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+}
+.social-icons a:hover {
+  background-color: #e0e0e0;
+}
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.social-icons .social-icon-fb::before {
+  background-image: url("../../images/social/facebook.png");
+}
+.social-icons .social-icon-instagram::before {
+  background-image: url("../../images/social/instagram.png");
+}
+
+.social-icons .social-icon-telegram::before {
+  background-image: url("../../images/social/telegram.png");
+}
