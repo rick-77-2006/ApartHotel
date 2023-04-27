@@ -1,4 +1,4 @@
-@charset "UTF-8";
+	@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
 
@@ -1654,6 +1654,7 @@
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		text-align: center;
 		/*text-transform: uppercase;*/
 	}
 
@@ -1938,7 +1939,7 @@
 
 		.select-wrapper:before {
 			display: block;
-			height: 3.5em;
+			height: 3em;
 			line-height: 3.5em;
 			pointer-events: none;
 			position: absolute;
@@ -3064,7 +3065,7 @@
 				.wrapper.style1 input[type="reset"].alt,
 				.wrapper.style1 input[type="button"].alt,
 				.wrapper.style1 button.alt,
-				.wrapper.style1 .button.alt {
+				.wrapper.style1 .button.alt, .btn-mosc {
 					background-color: #F7F9FC;
 					box-shadow: inset 0 0 0 2px #000000;
 					color: #000000 !important;
@@ -3594,7 +3595,7 @@
 		@media screen and (max-width: 480px) {
 
 			.wrapper {
-				padding: 2em 1em 0.1em 1em;
+				padding: 4em 1em 0.1em 1em;
 			}
 
 		}
@@ -4228,7 +4229,7 @@
     color: black;
 	    -webkit-transition-duration: 0.9s;
     transition-duration: 0.4s;
-	padding: 10px 20px;
+	padding: 2px 9px;
 	/*width: 20%;*/
     
 }
