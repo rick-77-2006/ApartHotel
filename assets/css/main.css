@@ -1759,8 +1759,9 @@
 	}
 
 	a {
-		color: #51BAA4;
-	}
+		/*color: #51BAA4;*/
+		color: #000000;
+		}
 
 	strong, b {
 		color: #25383B;
@@ -3066,8 +3067,8 @@
 				.wrapper.style1 input[type="button"].alt,
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt, .btn-mosc {
-					background-color: #F7F9FC;
-					box-shadow: inset 0 0 0 2px #000000;
+					background-color: #ffd400; /*#F7F9FC;*/
+					/*box-shadow: inset 0 0 0 2px #000000;*/
 					color: #000000 !important;
 				}
 
@@ -3088,8 +3089,8 @@
 					}
 
 		.wrapper.style2 {
-			background-color: #1E2832;
-			color: rgba(255, 255, 255, 0.75);
+			/*background-color: #1E2832;*/
+			color: rgba(0, 0, 0, 0.75);
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3301,9 +3302,9 @@
 				.wrapper.style2 input[type="button"].alt,
 				.wrapper.style2 button.alt,
 				.wrapper.style2 .button.alt {
-					background-color: transparent;
+					background-color: #ffd400;
 					box-shadow: inset 0 0 0 2px #fff;
-					color: #fff !important;
+					color: #000 !important;
 				}
 
 					.wrapper.style2 input[type="submit"].alt:hover,
@@ -4113,8 +4114,8 @@
 /* Footer */
 
 	#footer {
-		background-color: #1E2832;
-		color: rgba(255, 255, 255, 0.75);
+		/*background-color: #1E2832;*/
+		color: rgba(0, 0, 0);
 		text-align: center;
 	}
 
@@ -4269,7 +4270,7 @@
 }
 .social-icons a {
   position: relative;
-  background-color: #eee;
+  background-color: #262623;
   display: block;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4304,3 +4305,8 @@
 .social-icons .social-icon-telegram::before {
   background-image: url("../../images/social/telegram.png");
 }
+
+li {
+	display: inline-block;
+	
+	}	
