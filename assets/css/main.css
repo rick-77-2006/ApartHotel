@@ -1664,7 +1664,8 @@
 
 	h2 {
 		font-size: 1.5em;
-		line-height: 1.5em;
+		/*line-height: 1.5em;*/
+		line-height: 0.0em;
 	}
 
 	h3 {
@@ -3730,7 +3731,7 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
-			min-width: 320px;
+			min-width: 427px;
 		}
 
 			#header > h1 {
