@@ -1,4 +1,4 @@
-	@charset "UTF-8";
+@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
 
@@ -3844,7 +3844,6 @@
 			}
 
 			@media screen and (max-width: 736px) {
-
 				#nav .close {
 					height: 4em;
 					line-height: 4em;
