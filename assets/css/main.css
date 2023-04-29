@@ -1562,7 +1562,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: rgb(255, 238, 1);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
