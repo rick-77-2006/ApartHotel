@@ -4264,6 +4264,7 @@
   margin-bottom: 1rem;
   padding-left: 0;
 }
+
 .social-icons>li {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -4282,9 +4283,11 @@
   height: 2.5rem;
   border-radius: .25rem;
 }
+
 .social-icons a:hover {
   background-color: #e0e0e0;
 }
+
 .social-icons a::before {
   content: "";
   position: absolute;
