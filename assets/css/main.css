@@ -1556,7 +1556,7 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 320px;
+			min-width: 426px;
 		}
 
 	}
