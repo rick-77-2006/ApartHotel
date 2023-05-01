@@ -1,11 +1,11 @@
-.switcher[data-v-5049ac5c] {
+.switcher[button-on] {
   background: #f7f9fc;
   border-radius: 30px;
   position: relative;
   z-index: 1;
   transition: all 0.2s;
 }
-.switcher[data-v-5049ac5c]:before {
+.switcher[button-on]:before {
   content: "";
   position: absolute;
   left: 0;
@@ -17,11 +17,11 @@
   z-index: -1;
   transition: all 0.2s;
 }
-.switcher--active2[data-v-5049ac5c]:before {
+.switcher--active2[button-on]:before {
   transform: translateX(105px);
   width: 124px;
 }
-.switcher button[data-v-5049ac5c] {
+.switcher button[button-on] {
   min-width: 108px;
   min-height: 40px;
   background: transparent;
@@ -31,11 +31,11 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-.switcher__btn1[data-v-5049ac5c] {
+.switcher__btn1[button-on] {
   padding: 0;
   border-radius: 30px 0 30px 0;
 }
-.switcher__btn2[data-v-5049ac5c] {
+.switcher__btn2[button-on] {
   padding: 0 20px;
   border-radius: 30px 0 30px 0;
 }
@@ -1461,4 +1461,13 @@ button.swiper-pagination-bullet {
   width: 100%;
   height: 100%;
   min-height: 2rem;
+}
+
+
+.footer__wrap[data-v-2467c87a] {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 29px;
 }
