@@ -1471,3 +1471,42 @@ button.swiper-pagination-bullet {
     border-bottom: 1px solid #ebebeb;
     margin-bottom: 29px;
 }
+
+.layout__menu--open[data-v-74f4db7e] {
+    transform: translateX(0);
+}
+
+.layout__menu[data-v-74f4db7e] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(150%);
+    transition: all .3s;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.button, select {
+    text-transform: none;
+}
+
+.button, input {
+    overflow: visible;
+}
+
+.button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
