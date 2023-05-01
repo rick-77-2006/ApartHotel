@@ -385,7 +385,7 @@ sup {
 img {
   border-style: none;
 }
-button,
+.button,
 input,
 optgroup,
 select,
@@ -395,18 +395,18 @@ textarea {
   line-height: 1.15;
   margin: 0;
 }
-button,
+.button,
 input {
   overflow: visible;
 }
-button,
+.button,
 select {
   text-transform: none;
 }
 [type="button"],
 [type="reset"],
 [type="submit"],
-button {
+.button {
   -webkit-appearance: button;
 }
 [type="button"]::-moz-focus-inner,
@@ -422,10 +422,10 @@ button::-moz-focus-inner {
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-fieldset {
+.fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-legend {
+.legend {
   box-sizing: border-box;
   color: inherit;
   display: table;
@@ -433,10 +433,10 @@ legend {
   padding: 0;
   white-space: normal;
 }
-progress {
+.progress {
   vertical-align: baseline;
 }
-textarea {
+.textarea {
   overflow: auto;
 }
 [type="checkbox"],
@@ -1510,3 +1510,62 @@ button.swiper-pagination-bullet {
 * {
     box-sizing: border-box;
 }
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.social-icons>li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.social-icons a {
+  position: relative;
+  background-color: #262623;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .25rem;
+}
+
+.social-icons a:hover {
+  background-color: #e0e0e0;
+}
+
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.social-icons .social-icon-fb::before {
+  background-image: url("../../images/social/facebook.png");
+}
+.social-icons .social-icon-instagram::before {
+  background-image: url("../../images/social/instagram.png");
+}
+
+.social-icons .social-icon-telegram::before {
+  background-image: url("../../images/social/telegram.png");
+}
+
+li {
+	display: inline-block;
+	}
