@@ -483,7 +483,7 @@ template {
     url("CenturyGothicMedium.2c10f61e.ttf") format("truetype");
 }
 @font-face {
-  font-family: Century Gothic;
+  font-family: "Century Gothic";
   font-style: normal;
   font-weight: 700;
   font-display: auto;
@@ -1291,7 +1291,7 @@ button.swiper-pagination-bullet {
   height: 11px;
   left: 0;
   top: 4px;
-  background: url("d1a2d76cec6c857bc2bb73177b9f0946cc54b084.png") no-repeat 50%;
+  /* background: url("d1a2d76cec6c857bc2bb73177b9f0946cc54b084.png") no-repeat 50%; */
 }
 .card__list li[data-v-0d31f78a]:not(:last-child) {
   margin-bottom: 29px;
@@ -1400,7 +1400,7 @@ button.swiper-pagination-bullet {
   content: "";
   width: 103px;
   height: 176px;
-  background: url("bgConnect.acd66466.svg") no-repeat 50%;
+  /* background: url("bgConnect.acd66466.svg") no-repeat 50%; */
   z-index: -1;
 }
 .connect[data-v-7166a77c]:before {
@@ -1449,7 +1449,7 @@ button.swiper-pagination-bullet {
   width: 874px;
   height: 876px;
   z-index: -1;
-  background: url("decorMain.79e68da5.svg") no-repeat 50%;
+  /* background: url("decorMain.79e68da5.svg") no-repeat 50%; */
 }
 @media (max-width: 1000px) {
   .main-screen[data-v-ff5a65f4]:before {
