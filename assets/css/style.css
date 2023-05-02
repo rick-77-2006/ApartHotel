@@ -402,12 +402,7 @@ select {
   text-transform: none;
 }
 
-[type=button],
-[type=reset],
-[type=submit],
-button {
-  -webkit-appearance: button;
-}
+
 
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
