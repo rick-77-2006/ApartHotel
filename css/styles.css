@@ -551,7 +551,7 @@ button {
     right: -10px;
   }
   .slider img[data-v-9269c104] {
-    max-width: 395px;
+    max-width: 374px;
     max-height: 312px;
     width: 100%;
   }
@@ -568,9 +568,9 @@ button {
 @media (max-width: 1000px) {
   .slider[data-v-9269c104]:before {
     right: 0;
-    bottom: -40px;
-    width: 227px;
-    height: 100px;
+    bottom: -13px;
+    width: 21px;
+    height: 349px;
   }
 }
 .slider[data-v-9269c104] .swiper-pagination-bullet {
@@ -938,8 +938,8 @@ button {
   width: 874px;
   height: 876px;
   z-index: -1;
-  background: url(https://effortless-cobbler-eb753c.netlify.app/img/decorMain.79e68da5.svg)
-    no-repeat 50%;
+  /* background: url(https://effortless-cobbler-eb753c.netlify.app/img/decorMain.79e68da5.svg)
+    no-repeat 50%; */
 }
 @media (max-width: 1000px) {
   .main-screen[data-v-4137a3ae]:before {
@@ -947,8 +947,8 @@ button {
     bottom: -451px;
   }
 }
-/*! CSS Used fontfaces */
-@font-face {
+
+/* @font-face {
   font-family: Century Gothic;
   font-style: normal;
   font-weight: 400;
@@ -956,15 +956,15 @@ button {
   src: local("Century Gothic"),
     url(https://effortless-cobbler-eb753c.netlify.app/fonts/CenturyGothicMedium.2c10f61e.ttf)
       format("truetype");
-}
+} */
 @font-face {
   font-family: Century Gothic;
   font-style: normal;
   font-weight: 700;
   font-display: auto;
   src: local("Century Gothic"),
-    url(https://effortless-cobbler-eb753c.netlify.app/fonts/CenturyGothicSemiBold.333f2f42.ttf)
-      format("truetype");
+    /* url(https://effortless-cobbler-eb753c.netlify.app/fonts/CenturyGothicSemiBold.333f2f42.ttf)
+      format("truetype"); */
 }
 @font-face {
   font-family: Futura PT;
@@ -972,6 +972,6 @@ button {
   font-weight: 400;
   font-display: auto;
   src: local("Futura PT"),
-    url(https://effortless-cobbler-eb753c.netlify.app/fonts/FuturaPTMedium.18d854e4.ttf)
-      format("truetype");
+    /* url(https://effortless-cobbler-eb753c.netlify.app/fonts/FuturaPTMedium.18d854e4.ttf)
+      format("truetype"); */
 }
